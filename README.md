@@ -9,19 +9,19 @@ A robust and extensible sentiment classification pipeline using **Feed-Forward N
 
 ---
 
-## 🚀 Features
+##  Features
 
-- ✨ Tokenization with `spaCy` + custom vocabulary builder
-- 🧠 FFNN with averaged embeddings and dual hidden layers
-- 🔁 LSTM-based classifier with final hidden state for classification
-- 🧾 Supports both binary (IMDB, Sentiment140) and multi-class (Twitter) tasks
-- 📊 Logs train/dev metrics: accuracy, loss, precision, recall, F1
-- 📈 Visualizations for training curves (Loss, Accuracy, F1)
-- 🔎 Sample inference with decoded input sentences
+-  Tokenization with `spaCy` + custom vocabulary builder
+-  FFNN with averaged embeddings and dual hidden layers
+-  LSTM-based classifier with final hidden state for classification
+-  Supports both binary (IMDB, Sentiment140) and multi-class (Twitter) tasks
+-  Logs train/dev metrics: accuracy, loss, precision, recall, F1
+-  Visualizations for training curves (Loss, Accuracy, F1)
+-  Sample inference with decoded input sentences
 
 ---
 
-## 🧠 Tech Stack
+##  Tech Stack
 
 | Component | Technology |
 |----------|------------|
@@ -35,7 +35,7 @@ A robust and extensible sentiment classification pipeline using **Feed-Forward N
 
 ---
 
-## 📁 Datasets
+##  Datasets
 
 | Dataset | Type | Labels |
 |--------|------|--------|
@@ -45,7 +45,7 @@ A robust and extensible sentiment classification pipeline using **Feed-Forward N
 
 ---
 
-## 📦 Installation
+##  Installation
 
 ```bash
 # Clone the repo
@@ -61,7 +61,7 @@ python -m spacy download en_core_web_sm
 
 ---
 
-## 🧪 How to Run
+##  How to Run
 
 Run the full multi-dataset sentiment classification pipeline using:
 
@@ -73,7 +73,7 @@ Inside the notebook, you can toggle between IMDB, Sentiment140, and Twitter sect
 
 ---
 
-## 🏗️ Architecture Overview
+##  Architecture Overview
 
 ### 🔹 Feed-Forward Neural Network (FFNN)
 ```
@@ -91,7 +91,7 @@ Input → Embedding → LSTM(300→256) → Final Hidden State → Linear(256→
 
 ---
 
-## 📊 Evaluation Metrics
+##  Evaluation Metrics
 
 - Accuracy
 - Precision
@@ -103,7 +103,7 @@ All results are saved/logged after each epoch for train/dev.
 
 ---
 
-## 📷 Sample Output
+##  Sample Output
 
 ```
 Input Sentence: this movie was absolutely wonderful , i loved every part
@@ -114,7 +114,7 @@ Probability: 0.9672
 
 ---
 
-## 📌 Project Structure
+##  Project Structure
 
 ```
 .
@@ -127,7 +127,7 @@ Probability: 0.9672
 
 ---
 
-## 🧠 Future Improvements
+##  Future Improvements
 
 - Add attention mechanism to LSTM
 - Use pre-trained embeddings (GloVe/FastText)
@@ -145,7 +145,7 @@ Probability: 0.9672
 
 ---
 
-## 📜 License
+##  License
 
 MIT License
 
