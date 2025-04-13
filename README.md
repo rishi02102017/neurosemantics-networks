@@ -1,5 +1,10 @@
 # 🔍 Deep Sentiment Analysis with FFNN & LSTM (PyTorch + spaCy)
 
+<p align="center">
+  <img src="SA.jpg" alt="SA" width="500"/>
+</p>
+
+
 A robust and extensible sentiment classification pipeline using **Feed-Forward Neural Networks (FFNN)** and **Recurrent Neural Networks (LSTM)** for both **binary** and **multi-class sentiment analysis**. This project leverages `PyTorch`, `spaCy`, and `scikit-learn` and evaluates performance on real-world datasets: **IMDB**, **Sentiment140**, and **Twitter**.
 
 ---
